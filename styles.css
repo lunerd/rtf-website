@@ -17,7 +17,8 @@ body{
     width: 65px;
 }
 .main-content h3{
-    /*font-size: 16px;*/
+    color: red;
+    text-transform: uppercase;
 }
 .main-content > p{
     margin-bottom: 35px;
