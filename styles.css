@@ -7,7 +7,7 @@ body{
 .main-content{
     position: absolute;
     text-align: center;
-    width: 400px;
+    /*width: 400px;*/
     height: auto;
     top: 50%;
     left: 50%;
