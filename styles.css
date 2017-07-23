@@ -1,0 +1,34 @@
+body{
+    background-color: #000;
+    color: #fff;
+    background: url("images/rtf-bg.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+.main-content{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-content img{
+    width: 65px;
+}
+.main-content h3{
+    font-size: 16px;
+}
+.main-content > p{
+    margin-bottom: 25px;
+}
+.main-content a{
+    color: #000;
+    text-decoration: underline;
+    padding: 15px 35px;
+    background-color: white;
+    border-radius: 100px;
+}
+.main-content a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
