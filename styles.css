@@ -7,18 +7,12 @@ body{
 .main-content{
     position: absolute;
     text-align: center;
-    /*width: 400px;*/
-    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .main-content img{
     width: 65px;
-}
-.main-content h3{
-    color: red;
-    text-transform: uppercase;
 }
 .main-content > p{
     margin-bottom: 35px;
