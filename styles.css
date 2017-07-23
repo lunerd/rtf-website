@@ -5,6 +5,7 @@ body{
     background-size: cover;
 }
 .main-content{
+    width: 100%;
     position: absolute;
     text-align: center;
     top: 50%;
