@@ -16,6 +16,7 @@ body{
 }
 .main-content > p{
     margin-bottom: 35px;
+    color: red;
 }
 .main-content a{
     color: #000;
