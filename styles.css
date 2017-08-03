@@ -2,6 +2,7 @@ body{
     background-color: #F4F0E5;
     color: #061C42;
     background-size: cover;
+    min-height: 100%;
 }
 .main-content{
     width: 100%;
@@ -20,15 +21,24 @@ body{
     margin-bottom: 35px;
 }
 .main-content a{
-    color: #fff;
+    color: #061C42;
     text-decoration: underline;
-    padding: 15px 35px;
-    background-color: #061C42;
-    border-radius: 100px;
+    /*padding: 15px 35px;*/
+    /*border: 2px solid #000;*/
     transition: 0.5s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-.main-content a:hover{
-    background-color: rgba(6, 28, 66, 0.7);
+.main-content-cont{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 50px;
+    float: right;
 }
 
 @media (min-width: 600px){
