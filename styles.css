@@ -1,6 +1,6 @@
 body{
     background-color: #F4F0E5;
-    color: #061C42;
+    color: #11326A;
     background-size: cover;
     min-height: 100%;
 }
@@ -18,15 +18,15 @@ body{
 }
 .main-content img{
     padding: 60px;
-    border-right: 2px solid #061C42;
+    border-right: 2px solid #11326A;
 }
 .main-content a{
-    color: #061C42;
+    color: #11326A;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid #061C42;
+    border: 2px solid #11326A;
     padding: 15px 15px;
 }
 /*.main-content-cont{
@@ -43,6 +43,14 @@ body{
     .main-content img{
         border-right: none;
         width: 225px;
+    }
+    .main-content a{
+        border: none;
+        font-size: 12px;
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -50px;
     }
 }
 @media (min-width: 505px){
