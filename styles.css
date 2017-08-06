@@ -39,6 +39,8 @@ body{
     float: right;
 }*/
 
+/* Responsive styles */
+
 @media (max-width: 504px){
     .main-content img{
         border-right: none;
